@@ -1,5 +1,160 @@
-{ 
-  "_comment": "Sample GloBI dataset descriptor. See http://github.com/globalbioticinteractions for more information.",
-  "citation": "Jorrit H. Poelen. 2014. Species associations manually extracted from literature.",
-  "deprecated": false
+{
+  "@context" : [ "http://www.w3.org/ns/csvw", {
+    "@language" : "en"
+  } ],
+  "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+  "tables" : [ {
+    "@context" : [ "http://www.w3.org/ns/csvw", {
+      "@language" : "en"
+    } ],
+    "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+    "url" : "file:///home/jorrit/proj/globi/data-new/overson_2023/Newest_Database_2022.tsv",
+    "dcterms:bibliographicCitation" : "Biotic interaction observations from Rick Overson Laura Steger. https://orcid.org/0000-0003-3728-6260",
+    "delimiter" : "\t",
+    "headerRowCount" : 1,
+    "null" : [ "" ],
+    "tableSchema" : {
+      "columns" : [ {
+        "name" : "sort20220911",
+        "titles" : "sort20220911",
+        "datatype" : "string"
+      }, {
+        "name" : "CollectionCode2018",
+        "titles" : "CollectionCode2018",
+        "datatype" : "string"
+      }, {
+        "name" : "CollectionCode2019",
+        "titles" : "CollectionCode2019",
+        "datatype" : "string"
+      }, {
+        "name" : "VeryOldCC",
+        "titles" : "VeryOldCC",
+        "datatype" : "string"
+      }, {
+        "name" : "CollectionCodeOld",
+        "titles" : "CollectionCodeOld",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceCollectionCode",
+        "titles" : "CollectionCode",
+        "datatype" : "string"
+      }, {
+        "name" : "etOHstorageLoc",
+        "titles" : "etOHstorageLoc",
+        "datatype" : "string"
+      }, {
+        "name" : "TransferNotes",
+        "titles" : "TransferNotes",
+        "datatype" : "string"
+      }, {
+        "name" : "BiogeographicRegion",
+        "titles" : "BiogeographicRegion",
+        "datatype" : "string"
+      }, {
+        "name" : "Country",
+        "titles" : "Country",
+        "datatype" : "string"
+      }, {
+        "name" : "Adm1",
+        "titles" : "Adm1",
+        "datatype" : "string"
+      }, {
+        "name" : "Adm2",
+        "titles" : "Adm2",
+        "datatype" : "string"
+      }, {
+        "name" : "Region",
+        "titles" : "Region",
+        "datatype" : "string"
+      }, {
+        "name" : "localityName",
+        "titles" : "Locale",
+        "datatype" : "string"
+      }, {
+        "name" : "LocalityCode",
+        "titles" : "LocalityCode",
+        "datatype" : "string"
+      }, {
+        "name" : "LocalityCode2",
+        "titles" : "LocalityCode2",
+        "datatype" : "string"
+      }, {
+        "name" : "LocalityNotes",
+        "titles" : "LocalityNotes",
+        "datatype" : "string"
+      }, {
+        "name" : "DateCollectedStart",
+        "titles" : "DateCollectedStart",
+        "datatype" : "string"
+      }, {
+        "name" : "DateCollectedEnd",
+        "titles" : "DateCollectedEnd",
+        "datatype" : "string"
+      }, {
+        "name" : "Time",
+        "titles" : "Time",
+        "datatype" : "string"
+      }, {
+        "name" : "Method",
+        "titles" : "Method",
+        "datatype" : "string"
+      }, {
+        "name" : "decimalLatitude",
+        "titles" : "Lat",
+        "datatype" : "string"
+      }, {
+        "name" : "decimalLongitude",
+        "titles" : "Lon",
+        "datatype" : "string"
+      }, {
+        "name" : "LatLonMaxError",
+        "titles" : "LatLonMaxError",
+        "datatype" : "string"
+      }, {
+        "name" : "Datum",
+        "titles" : "Datum",
+        "datatype" : "string"
+      }, {
+        "name" : "Elevation",
+        "titles" : "Elevation",
+        "datatype" : "string"
+      }, {
+        "name" : "ElevationMaxError",
+        "titles" : "ElevationMaxError",
+        "datatype" : "string"
+      }, {
+        "name" : "habitatName",
+        "titles" : "Habitat",
+        "datatype" : "string"
+      }, {
+        "name" : "Microhabitat",
+        "titles" : "Microhabitat",
+        "datatype" : "string"
+      }, {
+        "name" : "Medium",
+        "titles" : "Medium",
+        "datatype" : "string"
+      }, {
+        "name" : "CollectedBy",
+        "titles" : "CollectedBy",
+        "datatype" : "string"
+      }, {
+        "name" : "CollectionNotes",
+        "titles" : "CollectionNotes",
+        "datatype" : "string"
+      }, {
+        "name" : "LocatedAt",
+        "titles" : "LocatedAt",
+        "datatype" : "string"
+      }, {
+        "name" : "OwnedBy",
+        "titles" : "OwnedBy",
+        "datatype" : "string"
+      }, {
+        "name" : "TaxonNotes",
+        "titles" : "TaxonNotes",
+        "datatype" : "string"
+      } ]
+    }
+  } ]
 }
