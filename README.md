@@ -1,5 +1,19 @@
 [![GloBI Review by Elton](../../actions/workflows/review.yml/badge.svg)](../../actions/workflows/review.yml) [![DOI](https://zenodo.org/badge/26293374.svg)](https://zenodo.org/badge/latestdoi/26293374) [![GloBI](https://api.globalbioticinteractions.org/interaction.svg?accordingTo=globi:globalbioticinteractions/template-dataset)](https://globalbioticinteractions.org/?accordingTo=globi:globalbioticinteractions/template-dataset) 
 
+
+The table below shows the first 5 rows of this dataset. 
+
+| sort20220911 | CollectionCode2018 | CollectionCode2019 | VeryOldCC | CollectionCodeOld | CollectionCode | etOHstorageLoc | TransferNotes | BiogeographicRegion | Country | Adm1 | Adm2 | Region | Locale | LocalityCode | LocalityCode2 | LocalityNotes | DateCollectedStart | DateCollectedEnd | Time | Method | Lat | Lon | LatLonMaxError | Datum | Elevation | ElevationMaxError | Habitat | Microhabitat | Medium | CollectedBy | CollectionNotes | LocatedAt | OwnedBy | TaxonNotes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | RPO#0001 | RPO#0001 | #N/A | RO-05-HYM | RPO#0001 |  |  | North America | USA | AZ | Maricopa | Tempe | East Dunbar Dr |  |  |  | 2/20/2005 |  |  | hand | 33.3803 | -111.9034 | 10 m | WGS 84 | 363 | Acquired through GBIF in 2015 from lat/lon | urban |  | 75% EtOH | RP Overson |  |  |  |  |
+| 2 | 2005-10070 | RPO#0002 | #N/A | 2005-10070 | RPO#0002 | U2020-I |  | North America | USA | AR | Montgomery | Ouachita National Forest | Lake Ouchita |  |  |  | 6/7/2005 |  |  | hand | 34.5852 | -93.4099 | 20 | WGS 84 | 204 |  |  |  | 100% EtOH | RP Overson | Collected near shoreline of lake |  |  |  |
+| 3 | RPO#0002 | RPO#0004 | 2 | RO-05-14 | RPO#0003 | U2020-I |  | North America | USA | AR | Montgomery | Ouachita National Forest | Lake Ouachita |  |  |  | 6/7/2005 |  |  | hand | 34.5852 | -93.4099 | 10 m | WGS 84 | 199 | Acquired through GBIF in 2015 from lat/lon |  |  | 75% EtOH | RP Overson |  |  |  |  |
+
+
+
+
+-----
+
 This repository provides an example on how to make your interaction data available through Global Biotic Interactions (GloBI, http://globalbioticinteractions.org) .
 
 If you have comments or questions please [open an issue](https://github.com/globalbioticinteractions/globalbioticinteractions/issues/new).
@@ -16,6 +30,9 @@ If you want to make your own data discoverable through GloBI:
 After you do this, the data will be available through GloBI within a day or so.
 
 If you don't feel comfortable being indexed by GloBI because your data isn't ready yet, or no longer up-to-date, you can set ```"deprecated": true``` in ```globi.json``` to unlist (or opt-out) the dataset to be indexed and made visible via https://globalbioticinteractions.org (see https://github.com/globalbioticinteractions/globalbioticinteractions/issues/372). 
+
+
+
 
 ## Enable Automated Dataset Preservation/Publication
 Preserving and publishing your valuable data is now easier than ever. 
