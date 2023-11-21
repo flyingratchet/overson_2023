@@ -8,7 +8,7 @@
       "@language" : "en"
     } ],
     "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
-    "url" : "file:///home/jorrit/proj/globi/data-new/overson_2023/Newest_Database_2022.tsv",
+    "url" : "Newest_Database_2022.tsv",
     "dcterms:bibliographicCitation" : "Biotic interaction observations from Rick Overson Laura Steger. https://orcid.org/0000-0003-3728-6260",
     "delimiter" : "\t",
     "headerRowCount" : 1,
